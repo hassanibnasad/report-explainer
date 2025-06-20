@@ -5,7 +5,6 @@ from dotenv import load_dotenv
 from utils.extractor import extract_text
 from langchain.prompts import PromptTemplate
 from langchain.schema import HumanMessage
-from langchain_anthropic import ChatAnthropic
 from langchain.chat_models import ChatOpenAI
 import warnings
 warnings.filterwarnings("ignore")
