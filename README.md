@@ -65,15 +65,15 @@ Ideal for patients, healthcare assistants, or anyone looking to **understand med
 
 ## 📂 Folder Structure
 
-report-explainer/
-├── main.py # Streamlit app
-├── .env # API key (not committed)
-├── requirements.txt # Python dependencies
-├── utils/
-│ ├── init.py
-│ └── extractor.py # OCR and PDF text extractor
-├── .gitignore
-└── README.md
+- report-explainer/
+ ├── main.py # Streamlit app
+ ├── .env # API key (not committed)
+ ├── requirements.txt # Python dependencies
+ ├── utils/
+ │ ├── init.py
+ │ └── extractor.py # OCR and PDF text extractor
+ ├── .gitignore
+ └── README.md
 
 ---
 
