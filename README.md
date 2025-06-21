@@ -63,20 +63,6 @@ Ideal for patients, healthcare assistants, or anyone looking to **understand med
 
 ---
 
-## 📂 Project Structure
-
-report-explainer/
-    ├── .gitignore # To ignore .env and other sensitive files
-    ├── .env # Secret API key (not committed to GitHub)
-    ├── main.py # Main Streamlit app
-    ├── requirements.txt # Project dependencies
-    ├── README.md # Project documentation
-    └── utils/
-        ├── init.py # Makes utils a Python package
-        └── extractor.py # Extracts text from PDFs and images
-
----
-
 ## 🧪 How to Run Locally
 
 - 1. Clone the repo
