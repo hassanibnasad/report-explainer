@@ -63,17 +63,17 @@ Ideal for patients, healthcare assistants, or anyone looking to **understand med
 
 ---
 
-## 📂 Folder Structure
+## 📂 Project Structure
 
-- report-explainer/
- ├── main.py # Streamlit app
- ├── .env # API key (not committed)
- ├── requirements.txt # Python dependencies
- ├── utils/
- │ ├── init.py
- │ └── extractor.py # OCR and PDF text extractor
- ├── .gitignore
- └── README.md
+report-explainer/
+    ├── .gitignore # To ignore .env and other sensitive files
+    ├── .env # Secret API key (not committed to GitHub)
+    ├── main.py # Main Streamlit app
+    ├── requirements.txt # Project dependencies
+    ├── README.md # Project documentation
+    └── utils/
+        ├── init.py # Makes utils a Python package
+        └── extractor.py # Extracts text from PDFs and images
 
 ---
 
